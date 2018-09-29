@@ -13,13 +13,21 @@ namespace WebApplication1.Approval
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            for (int templatecount = 0; templatecount < 6; templatecount++)
+            NotificationhubModel notificationHubModel = new NotificationhubModel();
+            notificationHubModel.getdetailsOfApproval();
+
+            for (int templatecount = 0; templatecount < notificationHubModel.approvalPageList.Count; templatecount++)
             {
-                NotificationhubModel notificationHubModel = new NotificationhubModel();
-                notificationHubModel.getDetailsOfteNotification();
-                Label label = new Label();
-                label.ID = "LAbel1";
-                PlaceHolder1.Controls.Add(label);
+                Label TemplateName = new Label();
+                TemplateName.ID = "Label1";
+                PlaceHolder1.Controls.Add(TemplateName);
+                TemplateName.Text = notificationHubModel.approvalPageList[templatecount].TemplateName;
+                TemplateName.Width = 400;
+                Label OperationalManagerName = new Label();
+                OperationalManagerName.ID = "OperationalManagerName";
+                PlaceHolder1.Controls.Add(OperationalManagerName);
+                OperationalManagerName.Text = notificationHubModel.approvalPageList[templatecount].operationalManagerName;
+                OperationalManagerName.Width = 300;
                 HyperLink hyperlink = new HyperLink();
                 hyperlink.ID = "hyperlink1";
                 PlaceHolder1.Controls.Add(hyperlink);
@@ -35,8 +43,8 @@ namespace WebApplication1.Approval
                 hyperLink.Text = "Declined";
                 hyperLink.Width = 100;
 
-                label.Text = "New Template-NewHire_Finance " + "Dinesh bhatt"  /*notificationHubModel.ApprovalList[0].EventName.ToString();*/;
-                label.Width = 900;
+                ///label.Text = "New Template-NewHire_Finance " + "Dinesh bhatt"  /*notificationHubModel.ApprovalList[0].EventName.ToString();*/;
+                //label.Width = 900;
 
 
             }
