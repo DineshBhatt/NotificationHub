@@ -178,6 +178,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="EndUserHomePage\Acceptence.aspx" />
     <Content Include="EndUserHomePage\EndUserHomePage.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -370,6 +371,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EndUserHomePage\Acceptence.aspx.cs">
+      <DependentUpon>Acceptence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EndUserHomePage\Acceptence.aspx.designer.cs">
+      <DependentUpon>Acceptence.aspx</DependentUpon>
     </Compile>
     <Compile Include="EndUserHomePage\EndUserHomePage.aspx.cs">
       <DependentUpon>EndUserHomePage.aspx</DependentUpon>
