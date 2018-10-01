@@ -170,6 +170,7 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Approval\EventAprovalPage.aspx" />
+    <Content Include="Approval\EventDeclinedPage.aspx" />
     <Content Include="Approval\ManagerApprovalPage.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -178,6 +179,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="EndUserHomePage\Acceptence.aspx" />
     <Content Include="EndUserHomePage\EndUserHomePage.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -339,6 +341,13 @@
     <Compile Include="Approval\EventAprovalPage.aspx.designer.cs">
       <DependentUpon>EventAprovalPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Approval\EventDeclinedPage.aspx.cs">
+      <DependentUpon>EventDeclinedPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Approval\EventDeclinedPage.aspx.designer.cs">
+      <DependentUpon>EventDeclinedPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Approval\ManagerApprovalPage.aspx.cs">
       <DependentUpon>ManagerApprovalPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -370,6 +379,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EndUserHomePage\Acceptence.aspx.cs">
+      <DependentUpon>Acceptence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EndUserHomePage\Acceptence.aspx.designer.cs">
+      <DependentUpon>Acceptence.aspx</DependentUpon>
     </Compile>
     <Compile Include="EndUserHomePage\EndUserHomePage.aspx.cs">
       <DependentUpon>EndUserHomePage.aspx</DependentUpon>

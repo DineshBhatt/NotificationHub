@@ -10,33 +10,24 @@
 namespace WebApplication1.Approval {
     
     
-    public partial class ManagerApprovalPage {
+    public partial class EventDeclinedPage {
         
         /// <summary>
-        /// PlaceHolder1 control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder PlaceHolder1;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// PlaceHolder2 control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder PlaceHolder2;
-        
-        /// <summary>
-        /// PlaceHolder3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder PlaceHolder3;
+        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }

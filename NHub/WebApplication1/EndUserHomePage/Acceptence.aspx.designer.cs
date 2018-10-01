@@ -7,36 +7,54 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.Approval {
+namespace WebApplication1.EndUserHomePage {
     
     
-    public partial class ManagerApprovalPage {
+    public partial class Acceptence {
         
         /// <summary>
-        /// PlaceHolder1 control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder PlaceHolder1;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// PlaceHolder2 control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder PlaceHolder2;
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// PlaceHolder3 control.
+        /// CheckBoxList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder PlaceHolder3;
+        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
+        
+        /// <summary>
+        /// Button1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
+        
+        /// <summary>
+        /// Button2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }
